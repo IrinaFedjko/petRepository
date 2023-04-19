@@ -1,2 +1,7 @@
-package pet;public class PetNotFoundException {
+package pet;
+
+public class PetNotFoundException extends Exception {
+    public PetNotFoundException(String message) {
+        super(message);
+    }
 }
